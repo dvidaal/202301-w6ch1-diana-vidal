@@ -1,0 +1,16 @@
+.container-form {
+  display: flex;
+  gap: 5px;
+}
+
+.form-input {
+  border-radius: 15px;
+  height: 45px;
+  padding-right: 15px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+button {
+  border-radius: 10px;
+}
