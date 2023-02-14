@@ -1,10 +1,18 @@
+import { TaskStructure } from "../../types";
+import ToggleTaskButton from "../ToggleTaskButton/ToggleTaskButton";
 import "./TaskCard.css";
 
-const TaskCard = (): JSX.Element => {
+interface TaskCardProps {
+  task: TaskStructure;
+}
+
+const TaskCard = ({
+  task: { id, isDone, name },
+}: TaskCardProps): JSX.Element => {
   return (
-    <ul className="task-container">
-      <li>❌ Entender lo que me pregunta Mario sobre el BEM</li>
-    </ul>
+    <>
+      <ToggleTaskButton id={id} isDone={isDone} /> {name}
+    </>
   );
 };
 
