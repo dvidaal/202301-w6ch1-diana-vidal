@@ -7,7 +7,7 @@ const Form = (): JSX.Element => {
         aria-label="Field to create a task"
       />
 
-      <button type="submit" aria-label="Create button">
+      <button type="submit" aria-label="Create button" className="submit-form">
         Create
       </button>
     </div>
