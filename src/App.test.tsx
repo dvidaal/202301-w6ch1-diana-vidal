@@ -3,7 +3,7 @@ import App from "./App";
 
 describe("Given an App component", () => {
   describe("When rendered App", () => {
-    test("Then it should show a header with an h1 label inside", () => {
+    test("Then it should render a layout component with a header with an h1 label inside", () => {
       render(<App />);
 
       const header = screen.getByRole("heading", { level: 1 });

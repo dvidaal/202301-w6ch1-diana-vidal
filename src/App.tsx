@@ -1,17 +1,11 @@
-import React from "react";
+import Layout from "./components/Layout/Layout";
 
-import "./App.css";
-import Form from "./components/Form/Form";
-
-function App() {
+const App = () => {
   return (
-    <div className="container">
-      <header className="main-header">
-        <h1>To Do list ✅</h1>
-        <Form />
-      </header>
+    <div>
+      <Layout />
     </div>
   );
-}
+};
 
 export default App;
