@@ -3,11 +3,11 @@ import { TasksStructure } from "../types";
 
 const initialTask: TasksStructure = [
   { id: 1, isDone: false, name: "Entender lo que me pregunta Mario del BEM" },
-  { id: 2, isDone: false, name: "Entender un 10% de lo que programo" },
+  { id: 2, isDone: false, name: "Creer todavía más fuerte en el método" },
   {
     id: 3,
     isDone: false,
-    name: "Ver la luz del sol cuando termine el bootcamp",
+    name: "Testiar absolutamente todo en mi vida",
   },
   { id: 4, isDone: false, name: "Comer muchos conitos" },
 ];
